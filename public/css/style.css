@@ -1,0 +1,62 @@
+body
+{
+    background-image:url("../images/01.jpg");
+    background-attachment: fixed;
+}
+.chat
+{
+    background-color: beige;
+    height: 500px;
+    max-height: 600px;
+}
+
+.user
+{
+    height: 500px;
+    max-height: 500px;
+    background-image: url("../images/02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ul {
+    height: 100%;
+    position: relative;
+}
+h1
+{
+    font-weight: bold;
+    color: cornflowerblue;
+    text-shadow: 2px 2px 2px cyan;
+    text-decoration: underline;
+}
+p{
+    font-weight: bold;
+}
+.dustbin
+{
+    margin-left:30px;
+}
+.username >li
+{
+    margin-top:10%;
+    color:white;
+}
+@media (max-width:768px)
+{
+    .user
+    {
+         height: 100px;
+    max-height: 100px;
+    }
+
+}
+@media (max-width:992px)
+{
+    .user
+    {
+         height: 100px;
+    max-height: 100px;
+    }
+
+}
+

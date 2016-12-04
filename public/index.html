@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device = device-width" initial-scale="1">
+    <title>TODO APP || JavaScript Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+        <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <h1 style="text-align:center;"> CHAT MESSENGER  </h1>
+            <p style="text-align:center;"> JAVASCRIPT ASSIGNMENT TODO APP </p>
+        <div class="row">
+             <div class="col-lg-3 col-xs-12 col-md-3 user">
+            <ul id="user" class="username" style="overflow: auto; padding-left:14px">
+              
+                </ul>
+            </div>
+    <div class="col-xs-12 col-lg-9 col-md-9 chat">
+        
+ <ul id="todos" style="overflow: auto; list-style-type:none; margin-top:5%;padding-left:0" class="chating">
+     
+    </ul>
+        </div>
+       
+        </div>
+        <div class="row">
+           
+                <div class="col-xs-3 userinput">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                    <input type="text" id="chats" placeholder="Add User"  class="form-control input-sm" name="chats" >
+                    </div>
+                    </form>
+                    <div class="form-group">
+                    <button class="btn btn-primary btn-md" onclick="adduser()"> ADD USER </button>
+                    </div>
+                    
+
+
+                    </div>
+                     <div class="col-xs-9 type ">
+                <form class="form-horizontal">
+                        <div class="form-group">
+                    <input type="text" id="chat" placeholder="Enter Text Here" class="form-control input-sm" name="chat" >
+                    </div>
+                     </form>
+                    <div class="form-group">
+                    <button style="float:right" class="btn btn-primary btn-success btn-md" onclick="chatting()"> SEND </button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="js/fun.js"></script>
+</body>
+</html>
